@@ -3,7 +3,7 @@ import { View, StyleSheet, SafeAreaView, Text, TouchableOpacity } from 'react-na
 import CountButton from 'src/components/CountButton';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { useEffect } from 'react/cjs/react.production.min';
-
+Icon.loadFont();
 const Home = () => {
   const [count, setCounter] = React.useState(0);
   const [prev, setPrev] = React.useState(0);
